@@ -1,0 +1,8 @@
+@import "./fonts.scss";
+@import "./constants.scss";
+
+body {
+    font-family: $primary-font;
+    background: $white;
+}
+
