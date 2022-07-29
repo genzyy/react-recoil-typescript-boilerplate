@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 
-import MainLayout from "layouts/main/main";
+import MainLayout from "layouts/main";
 
 import styles from "./styles.module.scss";
 
