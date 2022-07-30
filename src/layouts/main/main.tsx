@@ -5,7 +5,10 @@ import { MainLayoutProps } from "interfaces";
 
 import styles from "./styles.module.scss";
 
-const MainLayout: FC<MainLayoutProps> = ({ title = "React Cpp", children }) => {
+const MainLayout: FC<MainLayoutProps> = ({
+    title = "Typescript React App",
+    children,
+}) => {
     return (
         <div className={styles.mainLayout}>
             <Helmet>
